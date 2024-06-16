@@ -5,7 +5,7 @@ export const Navbar = () => {
 
   return (
     <div>
-      <header className="fixed top-0 z-20 flex items-center justify-between w-full px-6 text-sm bg-transparent pointer-events-auto select-auto lg:px-14 filter-none h-28 bg-slate-950">
+      <header className="fixed top-0 z-20 flex items-center justify-between w-full px-6 text-sm pointer-events-auto select-auto lg:px-14 filter-none h-28 bg-slate-950">
         <nav className="relative z-30 flex items-center justify-between w-full text-slate-100">
           <div className="flex items-center justify-center">
             <a href="/" className="relative z-10 w-12 h-12 text-red-400">
