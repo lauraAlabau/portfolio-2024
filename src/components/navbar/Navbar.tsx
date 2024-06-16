@@ -33,7 +33,11 @@ export const Navbar = () => {
                 </li>
               </ol>
               <div className="ml-6 border border-red-400 rounded-md px-4 py-3 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2">
-                <a href="/resume.pdf" target="_blank" className="">
+                <a
+                  href="../../../public/files/laura-alabau.pdf"
+                  target="_blank"
+                  download
+                >
                   Resume
                 </a>
               </div>
@@ -80,7 +84,11 @@ export const Navbar = () => {
                     </li>
                   </ol>
                   <div className="border border-red-400 rounded-md px-8 py-3 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2">
-                    <a href="/resume.pdf" target="_blank" className="">
+                    <a
+                      href="../../../public/files/laura-alabau.pdf"
+                      target="_blank"
+                      download
+                    >
                       Resume
                     </a>
                   </div>

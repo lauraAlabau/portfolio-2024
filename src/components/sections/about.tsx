@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="max-w-[1000px] mx-auto my-0 text-slate-100 lg:pt-28 h-auto flex flex-col justify-center items-start min-h-screen p-0"
+      className="max-w-[1000px] mx-auto my-8 lg:my-0 text-slate-100 lg:pt-28 h-auto flex flex-col justify-center items-start min-h-screen p-0"
     >
       <h1 className="mb-6 ml-1 leading-tight text-red-400">Hi, my name is</h1>
 
@@ -22,7 +22,11 @@ export const About = () => {
       </p>
 
       <div className="border border-red-400 rounded-md px-4 py-3 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2 mt-12">
-        <a href="/resume.pdf" target="_blank" className="">
+        <a
+          href="../../../public/files/laura-alabau.pdf"
+          target="_blank"
+          download
+        >
           Check out my Resume
         </a>
       </div>
