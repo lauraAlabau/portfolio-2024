@@ -1,4 +1,4 @@
-import { Contact, Navbar, SocialMedia } from "./components";
+import { Contact, Navbar, Sections, SocialMedia } from "./components";
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <Navbar />
       <Contact />
       <SocialMedia />
+      <Sections />
     </>
   );
 }
