@@ -1,6 +1,9 @@
 export const About = () => {
   return (
-    <section className="max-w-[1000px] mx-auto my-0 text-slate-100 lg:pt-28 h-auto flex flex-col justify-center items-start min-h-screen p-0">
+    <section
+      id="about"
+      className="max-w-[1000px] mx-auto my-0 text-slate-100 lg:pt-28 h-auto flex flex-col justify-center items-start min-h-screen p-0"
+    >
       <h1 className="mb-6 ml-1 leading-tight text-red-400">Hi, my name is</h1>
 
       <h2 className="text-4xl font-bold leading-tight lg:text-8xl text-slate-100">
