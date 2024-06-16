@@ -1,4 +1,5 @@
 import { useNavbar } from "../../context/NavbarContext";
+import { NAV_LINKS, RESUME } from "../../utils/navbar_elements";
 
 export const Navbar = () => {
   const { isOpen, setIsOpen } = useNavbar();
@@ -19,26 +20,18 @@ export const Navbar = () => {
           <div className="hidden lg:block">
             <div className="flex items-center">
               <ol className="flex justify-between items-center list-none gap-8 p-2.5 ">
-                <li className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1">
-                  <a href="/#skills">Skills</a>
-                </li>
-                <li className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1">
-                  <a href="/#experience">Experience</a>
-                </li>
-                <li className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1">
-                  <a href="/#projects">Projects</a>
-                </li>
-                <li className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1">
-                  <a href="/#contact">Contact</a>
-                </li>
+                {NAV_LINKS.map((element) => (
+                  <li
+                    key={element.name}
+                    className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1"
+                  >
+                    <a href={element.link}>{element.name}</a>
+                  </li>
+                ))}
               </ol>
               <div className="ml-6 border border-red-400 rounded-md px-4 py-3 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2">
-                <a
-                  href="../../../public/files/laura-alabau.pdf"
-                  target="_blank"
-                  download
-                >
-                  Resume
+                <a href={RESUME.link} target="_blank" download>
+                  {RESUME.name}
                 </a>
               </div>
             </div>
@@ -70,26 +63,18 @@ export const Navbar = () => {
               >
                 <nav className="flex flex-col items-center justify-between w-full gap-16 text-center">
                   <ol className="flex flex-col items-center justify-between w-full gap-8 text-center">
-                    <li className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1">
-                      <a href="/#skills">Skills</a>
-                    </li>
-                    <li className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1">
-                      <a href="/#experience">Experience</a>
-                    </li>
-                    <li className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1">
-                      <a href="/#projects">Projects</a>
-                    </li>
-                    <li className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1">
-                      <a href="/#contact">Contact</a>
-                    </li>
+                    {NAV_LINKS.map((element) => (
+                      <li
+                        key={element.name}
+                        className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1"
+                      >
+                        <a href={element.link}>{element.name}</a>
+                      </li>
+                    ))}
                   </ol>
                   <div className="border border-red-400 rounded-md px-8 py-3 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2">
-                    <a
-                      href="../../../public/files/laura-alabau.pdf"
-                      target="_blank"
-                      download
-                    >
-                      Resume
+                    <a href={RESUME.link} target="_blank" download>
+                      {RESUME.name}
                     </a>
                   </div>
                 </nav>
