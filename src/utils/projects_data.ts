@@ -12,7 +12,8 @@ export const PROJECTS_DATA = [
       "Javascript",
       "Javascript",
     ],
-    imageSrc: "../../public/hungry_cats.jpg",
+    imageSrc:
+      "https://utfs.io/f/28715dd5-dec5-448d-9c45-4d05dfc5314d-1muarz.jpg",
     githubLink: "https://github.com/lauraAlabau/proyect-1_the-game",
     previewLink: "https://lauraalabau.github.io/proyect-1_the-game/index.html",
     otherLink: "",
@@ -66,7 +67,8 @@ export const PROJECTS_DATA = [
       "Typescript",
       "Typescript",
     ],
-    imageSrc: "../../public/hungry_cats.jpg",
+    imageSrc:
+      "https://utfs.io/f/28715dd5-dec5-448d-9c45-4d05dfc5314d-1muarz.jpg",
     githubLink: "https://github.com/lauraAlabau/proyect-1_the-game",
     previewLink: "https://lauraalabau.github.io/proyect-1_the-game/index.html",
     otherLink: "",
