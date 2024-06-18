@@ -11,10 +11,14 @@ export const Projects = () => {
         Some projects I've built
       </h2>
       <ul className="relative flex flex-col gap-8 p-0 m-0 list-none lg:gap-24">
-        {PROJECTS_DATA.map((project) => (
+        {PROJECTS_DATA.slice(0, 3).map((project) => (
           <ProjectCard {...project} />
         ))}
       </ul>
+
+      <div className="mt-20  border border-red-400 rounded-md px-6 py-4 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2">
+        <a href="/projects">View All</a>
+      </div>
     </section>
   );
 };
