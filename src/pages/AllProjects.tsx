@@ -1,7 +1,7 @@
 import { ProjectList } from "../components/projectList/ProjectList";
 import { PROJECTS_DATA } from "../utils/projects_data";
 
-const Projects = () => {
+const AllProjects = () => {
   return (
     <main className="max-w-[1600px] mx-auto my-0 text-slate-100 lg:py-52 lg:px-36 h-auto  min-h-screen">
       <header>
@@ -32,4 +32,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default AllProjects;

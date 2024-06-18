@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { LayoutPg, Sections } from "./components";
-import Projects from "./pages/Projects";
+import AllProjects from "./pages/AllProjects";
 
 const router = createBrowserRouter([
   {
@@ -13,11 +13,11 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/projects",
+    path: "/all-projects",
     element: (
       <>
         <LayoutPg />
-        <Projects />
+        <AllProjects />
       </>
     ),
   },
