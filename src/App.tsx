@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { LayoutPg, Sections } from "./components";
-import Projects from "./Pages/Projects";
+import Projects from "./pages/Projects";
 
 const router = createBrowserRouter([
   {
