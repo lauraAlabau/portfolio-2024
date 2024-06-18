@@ -24,7 +24,7 @@ export const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <>
-      <li className="relative grid items-center grid-cols-12 gap-5 ">
+      <li className="relative grid items-center grid-cols-12 gap-5 p-6 lg:bg-transparent bg-slate-100/5 lg:p-0">
         <div className="relative hidden h-full col-start-1 col-end-7 shadow-lg shadow-black lg:block">
           <a
             href={githubLink}

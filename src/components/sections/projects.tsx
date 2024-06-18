@@ -10,7 +10,7 @@ export const Projects = () => {
       <h2 className="flex items-center relative mt-2.5 mb-10 w-full text-2xl whitespace-nowrap font-semibold after:block after:relative after:top-0 after:w-80 after:h-[1px] after:bg-slate-400 after:ml-5">
         Some projects I've built
       </h2>
-      <ul className="relative flex flex-col gap-24 p-6 m-0 list-none lg:p-0 lg:m-0 lg:bg-transparent bg-slate-100/5">
+      <ul className="relative flex flex-col gap-8 p-0 m-0 list-none lg:gap-24">
         {PROJECTS_DATA.map((project) => (
           <ProjectCard {...project} />
         ))}
