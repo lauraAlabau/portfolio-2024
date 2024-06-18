@@ -12,7 +12,7 @@ export const PROJECTS_DATA = [
       "Javascript",
       "Javascript",
     ],
-    imageSrc: "../../public/pro_imgs/hungry_cats.jpg",
+    imageSrc: "../../public/hungry_cats.jpg",
     githubLink: "https://github.com/lauraAlabau/proyect-1_the-game",
     previewLink: "https://lauraalabau.github.io/proyect-1_the-game/index.html",
     otherLink: "",
