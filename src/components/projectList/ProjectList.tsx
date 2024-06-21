@@ -1,5 +1,5 @@
 import { RiExternalLinkLine } from "react-icons/ri";
-import { TbBrandGithub, TbEyePlus } from "react-icons/tb";
+import { TbBrandGithub, TbDatabaseShare } from "react-icons/tb";
 
 type ProjectListProps = {
   header: string;
@@ -54,6 +54,17 @@ export const ProjectList = ({
                 <TbBrandGithub className="w-5 h-5" />
               </a>
             )}
+            {otherLink && (
+              <a
+                href={otherLink}
+                aria-label="Other Link"
+                className="relative flex items-center justify-center p-4 hover:text-red-400"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <TbDatabaseShare className="w-5 h-5" />
+              </a>
+            )}
             {previewLink && (
               <a
                 href={previewLink}
@@ -63,17 +74,6 @@ export const ProjectList = ({
                 target="_blank"
               >
                 <RiExternalLinkLine className="w-5 h-5" />
-              </a>
-            )}
-            {otherLink && (
-              <a
-                href={otherLink}
-                aria-label="Other Link"
-                className="relative flex items-center justify-center p-4 hover:text-red-400"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <TbEyePlus className="w-5 h-5" />
               </a>
             )}
           </div>
