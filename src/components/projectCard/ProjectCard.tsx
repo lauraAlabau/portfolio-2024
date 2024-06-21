@@ -25,7 +25,7 @@ export const ProjectCard = ({
   return (
     <>
       <li className="relative grid items-center grid-cols-12 gap-5 p-6 lg:bg-transparent bg-slate-100/5 lg:p-0">
-        <div className="relative hidden h-full col-start-1 col-end-7 shadow-lg shadow-black lg:block">
+        <div className="relative hidden h-full lg:col-start-1 lg:col-end-7 lg:shadow-sm lg:shadow-black/30 lg:block">
           <a
             href={githubLink}
             rel="noopener noreferrer"
@@ -58,32 +58,41 @@ export const ProjectCard = ({
                 <a
                   href={githubLink}
                   aria-label="GitHub Link"
-                  className="relative flex items-center justify-center p-4 hover:text-red-400"
+                  className="relative flex items-center justify-center p-4 hover:text-red-400 group"
                   target="_blank"
                 >
                   <TbBrandGithub className="w-5 h-5" />
+                  <span className="absolute px-2 py-1 mx-auto text-xs transition-opacity -translate-y-full rounded-md opacity-0 -translate-x-1/3 lg:-translate-x-1/2 text-slate-100 bg-slate-800 group-hover:opacity-100 left-1/2 whitespace-nowrap">
+                    Github Frontend
+                  </span>
                 </a>
               )}
               {otherLink && (
                 <a
                   href={otherLink}
                   aria-label="Other Link"
-                  className="relative flex items-center justify-center p-4 hover:text-red-400"
+                  className="relative flex items-center justify-center p-4 hover:text-red-400 group"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <TbDatabaseShare className="w-5 h-5" />
+                  <span className="absolute px-2 py-1 mx-auto text-xs transition-opacity -translate-x-1/2 -translate-y-full rounded-md opacity-0 text-slate-100 bg-slate-800 group-hover:opacity-100 left-1/2 whitespace-nowrap">
+                    Github Backend
+                  </span>
                 </a>
               )}
               {previewLink && (
                 <a
                   href={previewLink}
                   aria-label="External Link"
-                  className="relative flex items-center justify-center p-4 hover:text-red-400"
+                  className="relative flex items-center justify-center p-4 hover:text-red-400 group"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <RiExternalLinkLine className="w-5 h-5" />
+                  <span className="absolute px-2 py-1 mx-auto text-xs transition-opacity -translate-x-1/2 -translate-y-full rounded-md opacity-0 text-slate-100 bg-slate-800 group-hover:opacity-100 left-1/2 whitespace-nowrap">
+                    Live Preview
+                  </span>
                 </a>
               )}
             </div>

@@ -48,32 +48,41 @@ export const ProjectList = ({
               <a
                 href={githubLink}
                 aria-label="GitHub Link"
-                className="p-4 hover:text-red-400"
+                className="relative flex items-center justify-center p-2 lg:p-4 hover:text-red-400 group"
                 target="_blank"
               >
                 <TbBrandGithub className="w-5 h-5" />
+                <span className="absolute px-2 py-1 mx-auto text-xs transition-opacity -translate-x-1/2 -translate-y-full rounded-md opacity-0 text-slate-100 bg-slate-800 group-hover:opacity-100 left-1/2 whitespace-nowrap">
+                  Github Frontend
+                </span>
               </a>
             )}
             {otherLink && (
               <a
                 href={otherLink}
                 aria-label="Other Link"
-                className="relative flex items-center justify-center p-4 hover:text-red-400"
+                className="relative flex items-center justify-center p-2 lg:p-4 hover:text-red-400 group"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <TbDatabaseShare className="w-5 h-5" />
+                <span className="absolute px-2 py-1 mx-auto text-xs transition-opacity -translate-x-1/2 -translate-y-full rounded-md opacity-0 text-slate-100 bg-slate-800 group-hover:opacity-100 left-1/2 whitespace-nowrap">
+                  Github Backend
+                </span>
               </a>
             )}
             {previewLink && (
               <a
                 href={previewLink}
                 aria-label="External Link"
-                className="p-4 hover:text-red-400"
+                className="relative flex items-center justify-center p-2 lg:p-4 hover:text-red-400 group"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <RiExternalLinkLine className="w-5 h-5" />
+                <span className="absolute px-2 py-1 mx-auto text-xs transition-opacity -translate-y-full rounded-md opacity-0 lg:-translate-x-1/2 -translate-x-3/4 text-slate-100 bg-slate-800 group-hover:opacity-100 left-1/2 whitespace-nowrap">
+                  Live Preview
+                </span>
               </a>
             )}
           </div>
