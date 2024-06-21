@@ -29,7 +29,7 @@ export const PROJECTS_DATA = [
     imageSrc:
       "https://utfs.io/f/48d58539-3d74-41d0-9cf8-88f9182a63c3-9i3xtq.webp",
     githubLink: "https://github.com/lauraAlabau/finance-tracker-client",
-    previewLink: "https://lauraalabau.github.io/proyect-1_the-game/index.html",
+    previewLink: "https://finance-tracker-cli.vercel.app/",
     otherLink: "https://github.com/lauraAlabau/finance-tracker-server",
   },
   {
