@@ -41,7 +41,11 @@ export const ProjectCard = ({
           <div>
             <p className="text-sm text-red-400 my-2.5">{header}</p>
             <h3 className="mb-5 text-xl font-semibold leading-5 transition delay-75 text-slate-100 hover:text-red-400">
-              <a href={githubLink} target="_blank">
+              <a
+                href={githubLink}
+                target="_blank"
+                aria-label={`Visit the github page for the project: ${title}`}
+              >
                 {title}
               </a>
             </h3>
@@ -57,7 +61,7 @@ export const ProjectCard = ({
               {githubLink && (
                 <a
                   href={githubLink}
-                  aria-label="GitHub Link"
+                  aria-label="GitHub Frontend Link"
                   className="relative flex items-center justify-center p-4 hover:text-red-400 group"
                   target="_blank"
                 >
@@ -70,7 +74,7 @@ export const ProjectCard = ({
               {otherLink && (
                 <a
                   href={otherLink}
-                  aria-label="Other Link"
+                  aria-label="GitHub Backend Link"
                   className="relative flex items-center justify-center p-4 hover:text-red-400 group"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -84,7 +88,7 @@ export const ProjectCard = ({
               {previewLink && (
                 <a
                   href={previewLink}
-                  aria-label="External Link"
+                  aria-label="Live Preview Link"
                   className="relative flex items-center justify-center p-4 hover:text-red-400 group"
                   rel="noopener noreferrer"
                   target="_blank"
