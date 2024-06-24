@@ -31,6 +31,7 @@ export const ProjectCard = ({
             rel="noopener noreferrer"
             target="_blank"
             className="inline-block w-full h-full transition duration-200 ease-in rounded-md bg-red-400/70 mix-blend-screen hover:bg-transparent"
+            aria-label="GitHub Frontend Link"
           >
             <div className="relative inline-block w-full h-full overflow-hidden transition duration-200 ease-in rounded-md mix-blend-multiply filter grayscale contrast-100 brightness-90 hover:filter-none">
               <img className="w-full h-full" alt="" src={imageSrc} />
@@ -44,7 +45,7 @@ export const ProjectCard = ({
               <a
                 href={githubLink}
                 target="_blank"
-                aria-label={`Visit the github page for the project: ${title}`}
+                aria-label="GitHub Frontend Link"
               >
                 {title}
               </a>
