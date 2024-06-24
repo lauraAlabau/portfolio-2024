@@ -16,7 +16,9 @@ export const Experience = () => {
         ))}
       </ul>
       <div className="mt-20  border border-red-400 rounded-md px-6 py-4 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2">
-        <a href="/all-experience">View All</a>
+        <a href="/all-experience" aria-label="View all my experience">
+          View all experience
+        </a>
       </div>
     </section>
   );

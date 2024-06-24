@@ -21,7 +21,7 @@ export const Skills = () => {
                 >
                   <div>{tech.icon}</div>
                   <div>
-                    <h5 className="text-slate-100">{tech.name}</h5>
+                    <h4 className="text-slate-100">{tech.name}</h4>
                     <p className="text-xs">{tech.subtitle}</p>
                   </div>
                 </li>

@@ -24,7 +24,12 @@ export const About = () => {
       </p>
 
       <div className="border border-red-400 rounded-md px-4 py-3 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2 mt-12">
-        <a href={RESUME.link} target="_blank" download>
+        <a
+          href={RESUME.link}
+          target="_blank"
+          download
+          aria-label="Download my resume"
+        >
           Check out my {RESUME.name}
         </a>
       </div>

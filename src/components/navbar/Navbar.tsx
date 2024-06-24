@@ -9,7 +9,11 @@ export const Navbar = () => {
       <header className="fixed top-0 z-20 flex items-center justify-between w-full px-6 text-sm pointer-events-auto select-auto lg:px-14 filter-none h-28 bg-slate-950">
         <nav className="relative z-30 flex items-center justify-between w-full text-slate-100">
           <div className="flex items-center justify-center">
-            <a href="/" className="relative z-10 w-12 h-12 text-red-400">
+            <a
+              href="/"
+              className="relative z-10 w-12 h-12 text-red-400"
+              aria-label="Go to home page"
+            >
               <div className="relative flex items-center gap-3 text-2xl font-medium text-slate-300">
                 {"{"}
                 <span className="text-3xl font-black text-red-400">{"L"}</span>
@@ -25,12 +29,22 @@ export const Navbar = () => {
                     key={element.name}
                     className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1"
                   >
-                    <a href={element.link}>{element.name}</a>
+                    <a
+                      href={element.link}
+                      aria-label={`Go to ${element.name} page`}
+                    >
+                      {element.name}
+                    </a>
                   </li>
                 ))}
               </ol>
               <div className="ml-6 border border-red-400 rounded-md px-4 py-3 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2">
-                <a href={RESUME.link} target="_blank" download>
+                <a
+                  href={RESUME.link}
+                  target="_blank"
+                  download
+                  aria-label="Download my resume"
+                >
                   {RESUME.name}
                 </a>
               </div>
@@ -68,12 +82,22 @@ export const Navbar = () => {
                         key={element.name}
                         className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1"
                       >
-                        <a href={element.link}>{element.name}</a>
+                        <a
+                          href={element.link}
+                          aria-label={`Go to ${element.name} page`}
+                        >
+                          {element.name}
+                        </a>
                       </li>
                     ))}
                   </ol>
                   <div className="border border-red-400 rounded-md px-8 py-3 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2">
-                    <a href={RESUME.link} target="_blank" download>
+                    <a
+                      href={RESUME.link}
+                      target="_blank"
+                      download
+                      aria-label="Download my resume"
+                    >
                       {RESUME.name}
                     </a>
                   </div>
