@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useNavbar } from "../../context/NavbarContext";
 import { NAV_LINKS, RESUME } from "../../utils/navbar_elements";
 
@@ -9,8 +10,8 @@ export const Navbar = () => {
       <header className="fixed top-0 z-20 flex items-center justify-between w-full px-6 text-sm pointer-events-auto select-auto lg:px-14 filter-none h-28 bg-slate-950">
         <nav className="relative z-30 flex items-center justify-between w-full text-slate-100">
           <div className="flex items-center justify-center">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="relative z-10 w-12 h-12 text-red-400"
               aria-label="Go to home page"
             >
@@ -19,7 +20,7 @@ export const Navbar = () => {
                 <span className="text-3xl font-black text-red-400">{"L"}</span>
                 {"}"}
               </div>
-            </a>
+            </Link>
           </div>
           <div className="hidden lg:block">
             <div className="flex items-center">
