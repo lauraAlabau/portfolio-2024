@@ -36,7 +36,7 @@ export const AllProjects = () => {
             </tr>
           </thead>
           <tbody className="table-row-group align-middle ">
-            {PROJECTS_DATA.map((project) => (
+            {PROJECTS_DATA.filter((data) => !data.isBlog).map((project) => (
               <ProjectList {...project} />
             ))}
           </tbody>
