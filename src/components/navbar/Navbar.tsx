@@ -1,8 +1,10 @@
+import { useLocation } from "react-router-dom";
 import { useNavbar } from "../../context/NavbarContext";
 import { NAV_LINKS, RESUME } from "../../utils/navbar_elements";
 
 export const Navbar = () => {
   const { isOpen, setIsOpen } = useNavbar();
+  const location = useLocation();
 
   return (
     <div>
@@ -24,19 +26,26 @@ export const Navbar = () => {
           <div className="hidden lg:block">
             <div className="flex items-center">
               <ol className="flex justify-between items-center list-none gap-8 p-2.5 ">
-                {NAV_LINKS.map((element) => (
-                  <li
-                    key={element.name}
-                    className="transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1"
-                  >
-                    <a
-                      href={element.link}
-                      aria-label={`Go to ${element.name} page`}
+                {NAV_LINKS.map((element) => {
+                  const isActive = `/${location.hash}` === element.link;
+
+                  return (
+                    <li
+                      key={element.name}
+                      className={` transition-all duration-250 hover:text-red-400 hover:-translate-y-1 hover:-translate-x-1 ${
+                        isActive ? "text-red-400" : ""
+                      } `}
                     >
-                      {element.name}
-                    </a>
-                  </li>
-                ))}
+                      <a
+                        href={element.link}
+                        aria-label={`Go to ${element.name} page`}
+                        className={isActive ? "text-red-400" : ""}
+                      >
+                        {element.name}
+                      </a>
+                    </li>
+                  );
+                })}
               </ol>
               <div className="ml-6 border border-red-400 rounded-md px-4 py-3 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2">
                 <a

@@ -2,7 +2,7 @@ import { ExperienceList } from "../components/experience/ExperienceList";
 
 import { EXPERIENCE_DATA } from "../utils/experience_data";
 
-const AllExperience = () => {
+export const AllExperience = () => {
   return (
     <main className="max-w-[1000px] mx-auto my-0 text-slate-100 lg:py-52 lg:px-36 h-auto  min-h-screen">
       <header>
@@ -23,5 +23,3 @@ const AllExperience = () => {
     </main>
   );
 };
-
-export default AllExperience;

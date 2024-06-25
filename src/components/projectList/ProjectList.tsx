@@ -1,24 +1,27 @@
-import { RiExternalLinkLine } from "react-icons/ri";
+import { RiExternalLinkLine, RiEyeLine } from "react-icons/ri";
 import { TbBrandGithub, TbDatabaseShare } from "react-icons/tb";
+import { ALL_PROJECTS } from "../../utils/routes_index";
 
 type ProjectListProps = {
+  slug: string;
   header: string;
   title: string;
   skills: string[];
-  githubLink: string;
+  githubLinkFront: string;
+  githubLinkBack: string;
   previewLink: string;
-  otherLink: string;
+  isBlog?: boolean;
 };
 
 export const ProjectList = ({
+  slug,
   header,
   title,
-
   skills,
-
-  githubLink,
+  githubLinkFront,
   previewLink,
-  otherLink,
+  githubLinkBack,
+  isBlog,
 }: ProjectListProps) => {
   return (
     <>
@@ -44,9 +47,9 @@ export const ProjectList = ({
         </td>
         <td className="p-2.5">
           <div className="flex">
-            {githubLink && (
+            {githubLinkFront && (
               <a
-                href={githubLink}
+                href={githubLinkFront}
                 aria-label="GitHub Link"
                 className="relative flex items-center justify-center p-2 lg:p-4 hover:text-red-400 group"
                 target="_blank"
@@ -57,9 +60,9 @@ export const ProjectList = ({
                 </span>
               </a>
             )}
-            {otherLink && (
+            {githubLinkBack && (
               <a
-                href={otherLink}
+                href={githubLinkBack}
                 aria-label="Other Link"
                 className="relative flex items-center justify-center p-2 lg:p-4 hover:text-red-400 group"
                 rel="noopener noreferrer"
@@ -82,6 +85,19 @@ export const ProjectList = ({
                 <RiExternalLinkLine className="w-5 h-5" />
                 <span className="absolute px-2 py-1 mx-auto text-xs transition-opacity -translate-y-full rounded-md opacity-0 lg:-translate-x-1/2 -translate-x-3/4 text-slate-100 bg-slate-800 group-hover:opacity-100 left-1/2 whitespace-nowrap">
                   Live Preview
+                </span>
+              </a>
+            )}
+            {isBlog && (
+              <a
+                href={`${ALL_PROJECTS}/${slug}`}
+                aria-label="External Link"
+                className="relative flex items-center justify-center p-2 lg:p-4 hover:text-red-400 group"
+                rel="noopener noreferrer"
+              >
+                <RiEyeLine className="w-5 h-5" />
+                <span className="absolute px-2 py-1 mx-auto text-xs transition-opacity -translate-y-full rounded-md opacity-0 lg:-translate-x-1/2 -translate-x-3/4 text-slate-100 bg-slate-800 group-hover:opacity-100 left-1/2 whitespace-nowrap">
+                  See more
                 </span>
               </a>
             )}
