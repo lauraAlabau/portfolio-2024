@@ -5,28 +5,38 @@ import "./index.css";
 import { NavbarProvider } from "./context/NavbarContext.tsx";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { Sections } from "./components";
-import AllProjects from "./pages/AllProjects";
-import AllExperience from "./pages/AllExperience";
+
 import { Root } from "./routes/root.tsx";
 import { ErrorPage } from "./routes/error-page.tsx";
+import { Index } from "./routes/index.tsx";
+import { AllProjects } from "./routes/all-projects.tsx";
+import { AllExperience } from "./routes/all-experience.tsx";
+import { Project, loader as projectLoader } from "./routes/project.tsx";
+import {
+  ALL_EXPERIENCE,
+  ALL_PROJECTS,
+  BASE_URL,
+  SLUG_PROJECT,
+} from "./utils/routes_index.ts";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: BASE_URL,
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
+      { index: true, element: <Index /> },
       {
-        path: "/",
-        element: <Sections />,
-      },
-      {
-        path: "/all-projects",
+        path: ALL_PROJECTS,
         element: <AllProjects />,
       },
       {
-        path: "/all-experience",
+        path: SLUG_PROJECT,
+        element: <Project />,
+        loader: projectLoader,
+      },
+      {
+        path: ALL_EXPERIENCE,
         element: <AllExperience />,
       },
     ],

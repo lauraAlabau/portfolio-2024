@@ -5,7 +5,6 @@ export const Root = () => {
   return (
     <>
       <LayoutPg />
-
       <Outlet />
     </>
   );
