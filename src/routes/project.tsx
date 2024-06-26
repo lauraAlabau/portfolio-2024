@@ -35,7 +35,7 @@ export const Project = () => {
           {project.header}
         </p>
         <p className="lg:flex ml-2.5 lg:ml-0 text-base text-slate-300 ">
-          This page is WIP, you can check my old projects in this
+          This page is WIP
         </p>
       </header>
       <div className="my-8 lg:my-24"></div>
