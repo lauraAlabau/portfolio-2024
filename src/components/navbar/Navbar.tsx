@@ -12,7 +12,7 @@ export const Navbar = () => {
         <nav className="relative z-30 flex items-center justify-between w-full text-slate-100">
           <div className="flex items-center justify-center">
             <a
-              href="/"
+              href="/#about"
               className="relative z-10 w-12 h-12 text-red-400"
               aria-label="Go to home page"
             >
