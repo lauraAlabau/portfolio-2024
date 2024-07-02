@@ -1,4 +1,3 @@
-import { BiLinkExternal } from "react-icons/bi";
 import { ProjectList } from "../components/projectList/ProjectList";
 import { PROJECTS_DATA } from "../utils/projects_data";
 
@@ -10,18 +9,7 @@ export const AllProjects = () => {
           Archive routes
         </h1>
         <p className="ml-2.5 lg:ml-0 text-base text-red-300">
-          All the projects I’ve worked on
-        </p>
-        <p className="lg:flex ml-2.5 lg:ml-0 text-base text-slate-300 ">
-          This page is WIP, you can check my old projects in this
-          <a
-            href="https://laura-alabau-rodriguez.com/"
-            className="inline-flex items-center gap-1 ml-2 font-bold hover:text-red-300"
-            aria-label="Go to my old projects page"
-          >
-            Link
-            <BiLinkExternal className="w-4 h-4" />
-          </a>
+          Most of the projects I’ve worked on
         </p>
       </header>
       <div className="my-8 lg:my-24">
