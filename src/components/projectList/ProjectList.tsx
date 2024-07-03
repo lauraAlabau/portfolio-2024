@@ -11,6 +11,7 @@ type ProjectListProps = {
   githubLinkBack: string;
   previewLink: string;
   isBlog?: boolean;
+  blogImgs?: string[];
 };
 
 export const ProjectList = ({
@@ -22,6 +23,7 @@ export const ProjectList = ({
   previewLink,
   githubLinkBack,
   isBlog,
+  blogImgs,
 }: ProjectListProps) => {
   return (
     <>
@@ -74,7 +76,7 @@ export const ProjectList = ({
                 </span>
               </a>
             )}
-            {previewLink && (
+            {!isBlog && previewLink && (
               <a
                 href={previewLink}
                 aria-label="External Link"
@@ -88,7 +90,7 @@ export const ProjectList = ({
                 </span>
               </a>
             )}
-            {isBlog && (
+            {blogImgs && (
               <a
                 href={`${ALL_PROJECTS}/${slug}`}
                 aria-label="External Link"

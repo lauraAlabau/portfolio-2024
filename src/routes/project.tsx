@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import { ProjectCard, getProject } from "../utils/projects_data";
 import { SLUG_PROJECT } from "../utils/routes_index";
+import { Gallery } from "../components";
 
 export async function loader({ params }: LoaderFunctionArgs) {
   type TypedParams = Record<ParamParseKey<typeof SLUG_PROJECT>, string>;
@@ -28,16 +29,26 @@ export const Project = () => {
       className="max-w-[1600px] mx-auto my-0 text-slate-100 lg:py-52 lg:px-36 h-auto  min-h-screen"
     >
       <header>
-        <h1 className="mt-28 text-3xl ml-2.5 lg:ml-0 font-semibold leading-tight lg:block lg:text-7xl">
+        <h1 className="mx-4 text-3xl font-semibold leading-tight mt-28 lg:ml-0 lg:block lg:text-7xl lg:mt-0">
           {project.title}
         </h1>
-        <p className="ml-2.5 lg:ml-0 text-base text-red-300">
-          {project.header}
-        </p>
-        <p className="lg:flex ml-2.5 lg:ml-0 text-base text-slate-300 ">
-          This page is WIP, you can check my old projects in this
+        <p className="mx-4 mt-2 text-base text-red-300 lg:ml-0">
+          {project.header.split("-")[0]}
         </p>
       </header>
+      <section className="mx-4 mt-8 lg:flex lg:mx-0">
+        <p className="text-base lg:flex lg:ml-0 text-slate-300 lg:mt-10">
+          {project.description}
+        </p>
+      </section>
+      <section className="mx-4 mt-2 lg:flex lg:justify-center lg:mt-8 lg:mx-0">
+        <div className="columns-1 md:columns-2 xl:columns-3 gap-7 ">
+          {project.blogImgs?.map((src, idx) => (
+            <Gallery src={src} key={src + idx} />
+          ))}
+        </div>
+      </section>
+
       <div className="my-8 lg:my-24"></div>
     </main>
   );
