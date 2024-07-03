@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import { ProjectCard, getProject } from "../utils/projects_data";
 import { SLUG_PROJECT } from "../utils/routes_index";
-import { Carousel } from "../components";
+import { Gallery } from "../components/gallery/Gallery";
 
 export async function loader({ params }: LoaderFunctionArgs) {
   type TypedParams = Record<ParamParseKey<typeof SLUG_PROJECT>, string>;
@@ -23,12 +23,10 @@ export async function loader({ params }: LoaderFunctionArgs) {
 export const Project = () => {
   const { project } = useLoaderData() as { project: ProjectCard };
 
-  const images = project.blogImgs || [];
-
   return (
     <main
       id="project"
-      className="max-w-[1000px] mx-auto my-0 text-slate-100 lg:py-52 lg:px-36 h-auto  min-h-screen"
+      className="max-w-[1600px] mx-auto my-0 text-slate-100 lg:py-52 lg:px-36 h-auto  min-h-screen"
     >
       <header>
         <h1 className="mx-4 text-3xl font-semibold leading-tight mt-28 lg:ml-0 lg:block lg:text-7xl lg:mt-0">
@@ -44,15 +42,13 @@ export const Project = () => {
         </p>
       </section>
       <section className="mx-4 mt-2 lg:flex lg:justify-center lg:mt-8 lg:mx-0">
-        <Carousel>
-          {/* <img src={project.blogImgs?.[0]} className="rounded-md" /> */}
-          {[
-            ...images.map((s) => (
-              <img src={s} className="min-w-full rounded-md h-fit" key={s} />
-            )),
-          ]}
-        </Carousel>
+        <div className="columns-1 md:columns-2 xl:columns-3 gap-7 ">
+          {project.blogImgs?.map((src, idx) => (
+            <Gallery src={src} key={src + idx} />
+          ))}
+        </div>
       </section>
+
       <div className="my-8 lg:my-24"></div>
     </main>
   );
