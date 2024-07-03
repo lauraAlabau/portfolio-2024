@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import { ProjectCard, getProject } from "../utils/projects_data";
 import { SLUG_PROJECT } from "../utils/routes_index";
-import { Gallery } from "../components/gallery/Gallery";
+import { Gallery } from "../components";
 
 export async function loader({ params }: LoaderFunctionArgs) {
   type TypedParams = Record<ParamParseKey<typeof SLUG_PROJECT>, string>;
