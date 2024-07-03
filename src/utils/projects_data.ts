@@ -94,9 +94,9 @@ export const PROJECTS_DATA: ProjectCard[] = [
     githubLinkBack: "https://github.com/lauraAlabau/commercly-srv",
   },
   {
-    slug: "mtg-deck-creator",
+    slug: "mtg-creator-deck",
     header: "Ironhack - 2021",
-    title: "MTG Deck Creator",
+    title: "MTG Creator Deck",
     description:
       "Second project developed during the fullstack bootcamp in Ironhack. The objective of the project was to create a Backend project with a external api and also its own database where being able to manage users and it's data",
     skills: [
@@ -109,8 +109,13 @@ export const PROJECTS_DATA: ProjectCard[] = [
     ],
     thumbnailSrc: "",
     githubLinkFront: "https://github.com/lauraAlabau/project-2_API",
-    previewLink: "https://mtg-deck-creator.cyclic.app/",
+    previewLink: "",
     githubLinkBack: "",
+    blogImgs: [
+      "https://utfs.io/f/719713aa-be27-4427-99d4-d4882c151872-qd5o7g.jpg",
+      "https://utfs.io/f/d439e4dc-584c-473a-bc33-bce63bb7f42c-qd5o7h.jpg",
+      "https://utfs.io/f/ec7adf2c-d8c9-4a38-8250-27c443207ba7-qd5o7i.jpg",
+    ],
   },
   {
     slug: "hungry-cats",
@@ -126,128 +131,198 @@ export const PROJECTS_DATA: ProjectCard[] = [
     githubLinkBack: "",
   },
   // ENTAIN - 2019/2021
+  {
+    slug: "entain",
+    header: "Entain - 2019/21",
+    title: "Bwin, Betboo & Sportingbet",
+    description:
+      "Design of promotional banners for Bwin Sports and Bwin online casino, Betboo sports and casino and Sportingbet e-sports and casino. Adaptation for different countries, Spain, Brazil, Mexico and Colombia, and to different platforms and social networks.",
+    skills: ["Ps", "Ai"],
+    thumbnailSrc:
+      "https://utfs.io/f/eebcf297-3041-4773-97fa-cada1c1eb45e-mrc8f6.jpg",
+    githubLinkFront: "",
+    previewLink: "",
+    githubLinkBack: "",
+    isBlog: true,
+    blogImgs: [
+      "https://utfs.io/f/eebcf297-3041-4773-97fa-cada1c1eb45e-mrc8f6.jpg",
+      "https://utfs.io/f/cfe3bf69-6cc3-449e-b36b-97d61438abeb-mrc8f5.jpg",
+      "https://utfs.io/f/199e37d0-a3f5-4e0f-bbc3-92d4b712f11a-uoiyut.jpg",
+      "https://utfs.io/f/ead1dd87-ab7e-4f01-8182-a12da1ccdfa7-uoiyuu.jpg",
+      "https://utfs.io/f/188897b6-b69a-4dd2-8f93-4a9593e00973-5ul493.jpg",
+      "https://utfs.io/f/aca2bb12-d3b9-4ff6-933c-306a18727a57-5ul494.jpg",
+      "https://utfs.io/f/6fae347f-9477-4a09-87f7-dbb1b87a9c9d-5ul495.jpg",
+    ],
+  },
+  // MTG (Freelance) - 2017/2018
+  {
+    slug: "god-mtg",
+    header: "Freelance - 2017/18",
+    title: "GOD MTG",
+    description: "",
+    skills: ["Ps", "Ai"],
+    thumbnailSrc:
+      "https://utfs.io/f/f10afdfe-e4f1-41dd-9900-8f2652122b98-2qqf4y.jpg",
+    githubLinkFront: "",
+    previewLink: "",
+    githubLinkBack: "",
+    isBlog: true,
+    blogImgs: [
+      "https://utfs.io/f/f10afdfe-e4f1-41dd-9900-8f2652122b98-2qqf4y.jpg",
+      "https://utfs.io/f/eabb0803-92f0-4af4-a101-61fa3ab43b1f-2qqf4z.jpg",
+    ],
+  },
   // DINAMIC COMUNICACIO - 2017/2016
-
   {
     slug: "uqifa",
     header: "Dinàmic Comunicació - 2017",
     title: "Uquifa",
-    description: "",
-    skills: ["Ps", "Ai", "Ae", "Html", "Css"],
-    thumbnailSrc: "https://utfs.io/f/",
+    description:
+      "Web built with Joomla and personalised with CSS to make it responsive and to meet client needs. Design of graphic elements for the web.",
+    skills: ["Ps", "Ai", "Html", "Css", "Joomla"],
+    thumbnailSrc:
+      "https://utfs.io/f/b5152377-69ea-41aa-825b-6c5e4137a35a-3bpaqc.jpg",
     githubLinkFront: "",
     previewLink:
       "https://dinamiccomunicacio.com/celebrem-amb-uquifa-seu-80-aniversari-creant-nova-web/",
     githubLinkBack: "",
     isBlog: true,
-    blogImgs: ["https://utfs.io/f/", "https://utfs.io/f/"],
+    blogImgs: [
+      "https://utfs.io/f/b5152377-69ea-41aa-825b-6c5e4137a35a-3bpaqc.jpg",
+      "https://utfs.io/f/323cb253-fdbd-4005-b8d6-09cb6751e75e-3bpaq8.jpg",
+      "https://utfs.io/f/a1750f9d-c4ed-448d-8f11-e92d42d7673e-3bpaqb.jpg",
+      "https://utfs.io/f/796b459c-eeb0-49c6-bf0c-bd85474dce89-3bpaq7.jpg",
+    ],
   },
   {
-    slug: "apiject",
+    slug: "vecesam",
     header: "Dinàmic Comunicació - 2017",
-    title: "Apiject",
-    description: "",
-    skills: ["Ps", "Ai", "Ae", "Html", "Css"],
-    thumbnailSrc: "https://utfs.io/f/",
+    title: "Vecesam",
+    description:
+      "Vecesam is a company that manufactures PVC windows and doors. Website built with Joomla and customised with CSS and HTML to fit the devices and client's requirements. Graphics elements design for the web.",
+    skills: ["Ps", "Ai", "Html", "Css", "Joomla"],
+    thumbnailSrc:
+      "https://utfs.io/f/df8a47da-0d62-4cba-b28a-0314c67d0eb6-y7d442.jpg",
     githubLinkFront: "",
-    previewLink:
-      "https://dinamiccomunicacio.com/apiject-confia-en-dinamic-per-crear-la-landing-del-seu-nou-productec/",
+    previewLink: "",
     githubLinkBack: "",
     isBlog: true,
-    blogImgs: ["https://utfs.io/f/", "https://utfs.io/f/"],
+    blogImgs: [
+      "https://utfs.io/f/df8a47da-0d62-4cba-b28a-0314c67d0eb6-y7d442.jpg",
+      "https://utfs.io/f/3bcc03ae-3f13-4951-b9af-e2e76bfeacbd-y7d443.jpg",
+      "https://utfs.io/f/ebd0bca7-2f44-41af-b865-1e69a8581cac-y7d444.jpg",
+      "https://utfs.io/f/fdea3315-fbe6-4712-b969-df0c0f1e4862-y7d445.jpg",
+    ],
   },
   {
     slug: "som-hi-boi",
     header: "Dinàmic Comunicació - 2017",
     title: "Som-HiBoi",
-    description: "",
-    skills: ["Ps", "Ai", "Ae", "Html", "Css"],
-    thumbnailSrc: "https://utfs.io/f/",
+    description:
+      "Website built with Joomla and customised with CSS and HTML to fit the devices and client's requirements.",
+    skills: ["Ai", "Html", "Css", "Joomla"],
+    thumbnailSrc:
+      "https://utfs.io/f/421a3fa9-7eaa-4bd8-ab3c-652ac675f041-m2oxg0.jpg",
     githubLinkFront: "",
     previewLink:
       "https://dinamiccomunicacio.com/dinamic-posa-la-seva-experiencia-al-servei-d-un-crowdfunding-solidari-de-la-ue-santboiana/",
     githubLinkBack: "",
     isBlog: true,
-    blogImgs: ["https://utfs.io/f/", "https://utfs.io/f/"],
+    blogImgs: [
+      "https://utfs.io/f/421a3fa9-7eaa-4bd8-ab3c-652ac675f041-m2oxg0.jpg",
+      "https://utfs.io/f/17e46a24-129f-48d5-a5d4-a59927a77472-m2oxg1.jpg",
+    ],
   },
   {
     slug: "my-ideal-it",
-    header: "Profesional project - 2019",
-    title: "",
-    description: "",
-    skills: ["Ps", "Ai", "Ae", "Html", "Css"],
-    thumbnailSrc: "https://utfs.io/f/",
+    header: "Profesional project - 2017",
+    title: "My Ideal It",
+    description:
+      "Website built with Joomla and customised with CSS and HTML to fit the devices and client's requirements. This is a premium customisation company for mobile and laptop devices. Design of graphic elements for the web and also create some custom designs for devices.",
+    skills: ["Ps", "Ai", "Ae", "Html", "Css", "Joombla"],
+    thumbnailSrc:
+      "https://utfs.io/f/776a9208-f2e6-4e0e-9608-0755dc995e32-glt6x4.jpg",
     githubLinkFront: "",
     previewLink:
       "https://dinamiccomunicacio.com/myideal-it-dispositius-amb-un-300-mes-de-prestacions/",
     githubLinkBack: "",
     isBlog: true,
-    blogImgs: ["https://utfs.io/f/", "https://utfs.io/f/"],
+    blogImgs: [
+      "https://utfs.io/f/776a9208-f2e6-4e0e-9608-0755dc995e32-glt6x4.jpg",
+      "https://utfs.io/f/2a39d71b-f2af-461d-936b-99620ae2852b-glt6x5.jpg",
+    ],
   },
   {
-    slug: "",
-    header: "Profesional project - 2019",
-    title: "",
-    description: "",
-    skills: ["Ps", "Ai", "Ae", "Html", "Css"],
-    thumbnailSrc: "https://utfs.io/f/",
+    slug: "catchapp",
+    header: "Dinàmic Comunicació - 2017",
+    title: "CatchAPP",
+    description:
+      "Catchapp is an application where users can buy and share events with their friends and even resell tickets. Re-design of menu for the mobile version.",
+    skills: ["Ps", "Ai"],
+    thumbnailSrc:
+      "https://utfs.io/f/0c87139d-aece-4964-99a8-819094026e19-szdza.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
     isBlog: true,
-    blogImgs: ["https://utfs.io/f/", "https://utfs.io/f/"],
+    blogImgs: [
+      "https://utfs.io/f/0c87139d-aece-4964-99a8-819094026e19-szdza.jpg",
+    ],
   },
   {
-    slug: "",
-    header: "Profesional project - 2019",
-    title: "",
-    description: "",
-    skills: ["Ps", "Ai", "Ae", "Html", "Css"],
-    thumbnailSrc: "https://utfs.io/f/",
+    slug: "apiject",
+    header: "Dinàmic Comunicació - 2017",
+    title: "Apiject",
+    description:
+      "Website built with Joomla and customised using CSS and HTML to adjust it to the different devices and client's requirements. Graphics design elements created specific to the website and customised to the look and feel of the brand.",
+    skills: ["Ps", "Ai", "Html", "Css", "Joomla"],
+    thumbnailSrc:
+      "https://utfs.io/f/9a24661b-4060-42e2-ac47-1c7ad320332f-3qu2wa.jpg",
     githubLinkFront: "",
-    previewLink: "",
+    previewLink:
+      "https://dinamiccomunicacio.com/apiject-confia-en-dinamic-per-crear-la-landing-del-seu-nou-productec/",
     githubLinkBack: "",
     isBlog: true,
-    blogImgs: ["https://utfs.io/f/", "https://utfs.io/f/"],
+    blogImgs: [
+      "https://utfs.io/f/9a24661b-4060-42e2-ac47-1c7ad320332f-3qu2wa.jpg",
+      "https://utfs.io/f/59ad4d4a-5eef-4bac-993e-e2dc9d5bedd3-3qu2wb.jpg",
+      "https://utfs.io/f/060e7bb0-71e8-4279-9bba-c26da5af3d9a-3qu2wc.jpg",
+    ],
   },
   {
-    slug: "",
-    header: "Profesional project - 2019",
-    title: "",
-    description: "",
-    skills: ["Ps", "Ai", "Ae", "Html", "Css"],
-    thumbnailSrc: "https://utfs.io/f/",
+    slug: "fantosfreak",
+    header: "Dinàmic Comunicació - 2017",
+    title: "FantosFreak",
+    description: "Design and layout of media dossiers.",
+    skills: ["Ps", "Ai", "In"],
+    thumbnailSrc:
+      "https://utfs.io/f/69c98568-b59f-4e7f-bb07-038a30c4f5b0-f7wqdd.jpg",
     githubLinkFront: "",
-    previewLink: "",
+    previewLink:
+      "https://dinamiccomunicacio.com/myideal-it-dispositius-amb-un-300-mes-de-prestacions/",
     githubLinkBack: "",
     isBlog: true,
-    blogImgs: ["https://utfs.io/f/", "https://utfs.io/f/"],
-  },
-  {
-    slug: "",
-    header: "Profesional project - 2019",
-    title: "",
-    description: "",
-    skills: ["Ps", "Ai", "Ae", "Html", "Css"],
-    thumbnailSrc: "https://utfs.io/f/",
-    githubLinkFront: "",
-    previewLink: "",
-    githubLinkBack: "",
-    isBlog: true,
-    blogImgs: ["https://utfs.io/f/", "https://utfs.io/f/"],
+    blogImgs: [
+      "https://utfs.io/f/69c98568-b59f-4e7f-bb07-038a30c4f5b0-f7wqdd.jpg",
+      "https://utfs.io/f/66e1863d-5d10-49a7-af1f-95ef7c9f8914-f7wqdc.gif",
+    ],
   },
   {
     slug: "trip-troop",
-    header: "Dinàmic Comunicació - 2019",
+    header: "Dinàmic Comunicació - 2017",
     title: "Trip Troop",
-    description: "",
-    skills: ["Ps", "Ai", "Ae", "Html", "Css"],
-    thumbnailSrc: "https://utfs.io/f/",
+    description: "Design and final artwork for printing.",
+    skills: ["Ps", "Ai"],
+    thumbnailSrc:
+      "https://utfs.io/f/6f81e273-e3b5-49e7-b9fc-f6b2300cfa18-9e3eb5.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
     isBlog: true,
-    blogImgs: ["https://utfs.io/f/", "https://utfs.io/f/"],
+    blogImgs: [
+      "https://utfs.io/f/6f81e273-e3b5-49e7-b9fc-f6b2300cfa18-9e3eb5.jpg",
+      "https://utfs.io/f/1fafbb07-88e8-45e1-93ef-ed9bc49074a3-9e3eb6.jpg",
+    ],
   },
   {
     slug: "cines-full",
@@ -263,19 +338,21 @@ export const PROJECTS_DATA: ProjectCard[] = [
     githubLinkBack: "",
     isBlog: true,
     blogImgs: [
-      "https://utfs.io/f/c4693770-ec37-4489-b75b-d1c46e95fc37-cl8kh6.jpg",
+      "https://utfs.io/f/4054d56f-68ce-4895-b1d2-a4d765805c10-cl8kha.jpg",
       "https://utfs.io/f/191c37f3-5562-4e55-9a49-1cbf9255af5b-cl8kh7.jpg",
-      "https://utfs.io/f/07b27300-3cc1-4e95-bc9b-8ad7085df339-cl8kh8.jpg",
+      "https://utfs.io/f/6ec11bc3-4e26-4dd9-9a17-62f04a892f92-cl8khc.jpg",
       "https://utfs.io/f/04a5a82c-7ee5-4956-b45d-360f411848ca-cl8kh9.jpg",
+      "https://utfs.io/f/4818a6b7-292b-4f9b-ac5e-3261e46f2b9c-cl8khb.jpg",
+      "https://utfs.io/f/07b27300-3cc1-4e95-bc9b-8ad7085df339-cl8kh8.jpg",
     ],
   },
   {
     slug: "acpg",
     header: "Dinàmic Comunicació - 2016",
-    title: "Asociación Catalana de Profesionales de la Gastronomía (ACPG)",
+    title: "ACPG",
     description:
-      "Web made with Joomla, customisation based on the client's needs and custom responsive made with CSS and HTML",
-    skills: ["Ps", "Ai", "Ae", "Html", "Css"],
+      "Web made with Joomla, customisation based on the client's needs and custom responsive made with CSS and HTML.",
+    skills: ["Ps", "Ai", "Html", "Css", "Joomla"],
     thumbnailSrc:
       "https://utfs.io/f/bb60bbc2-4b75-4abb-ab3b-716e38fcede4-nj9eyr.jpg",
     githubLinkFront: "",
@@ -309,40 +386,6 @@ export const PROJECTS_DATA: ProjectCard[] = [
       "https://utfs.io/f/e7070b4a-511b-4ce6-a629-4e6d5ec32ecd-4n0ilj.jpg",
       "https://utfs.io/f/dd2f012e-74d3-4f5e-91a3-997a7df21d3d-4n0ili.jpg",
       "https://utfs.io/f/f61a847d-8a53-4cec-a508-98287b277be0-4n0ilh.jpg",
-    ],
-  },
-  // MTG (Freelance) - 2018
-  {
-    slug: "god-mtg-2018",
-    header: "Freelance - 2018",
-    title: "GOD MTG",
-    description: "",
-    skills: ["Ps", "Ai"],
-    thumbnailSrc:
-      "https://utfs.io/f/eabb0803-92f0-4af4-a101-61fa3ab43b1f-2qqf4z.jpg",
-    githubLinkFront: "",
-    previewLink: "",
-    githubLinkBack: "",
-    isBlog: true,
-    blogImgs: [
-      "https://utfs.io/f/eabb0803-92f0-4af4-a101-61fa3ab43b1f-2qqf4z.jpg",
-    ],
-  },
-  // MTG (Freelance) - 2017
-  {
-    slug: "god-mtg-2017",
-    header: "Freelance - 2017",
-    title: "GOD MTG",
-    description: "",
-    skills: ["Ps", "Ai"],
-    thumbnailSrc:
-      "https://utfs.io/f/f10afdfe-e4f1-41dd-9900-8f2652122b98-2qqf4y.jpg",
-    githubLinkFront: "",
-    previewLink: "",
-    githubLinkBack: "",
-    isBlog: true,
-    blogImgs: [
-      "https://utfs.io/f/f10afdfe-e4f1-41dd-9900-8f2652122b98-2qqf4y.jpg",
     ],
   },
   // ANANOS (Freelance) - 2016
@@ -388,7 +431,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
   {
     slug: "groupalia",
     header: "Groupalia - 2015",
-    title: "E-commerce designs",
+    title: "Groupalia E-commerce",
     description: "Web banner creation and design for ecommerce company.",
     skills: ["Ps", "Ai"],
     thumbnailSrc:
@@ -422,6 +465,20 @@ export const PROJECTS_DATA: ProjectCard[] = [
     ],
   },
 ];
+
+// {
+//   slug: "",
+//   header: "Profesional project - 2019",
+//   title: "",
+//   description: "",
+//   skills: ["Ps", "Ai", "Ae", "Html", "Css"],
+//   thumbnailSrc: "https://utfs.io/f/",
+//   githubLinkFront: "",
+//   previewLink: "",
+//   githubLinkBack: "",
+//   isBlog: true,
+//   blogImgs: ["https://utfs.io/f/", "https://utfs.io/f/"],
+// },s
 
 export const getProject = async (slug: string) => {
   const project = PROJECTS_DATA.find((project) => project.slug.includes(slug));

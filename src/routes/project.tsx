@@ -36,7 +36,7 @@ export const Project = () => {
           {project.header.split("-")[0]}
         </p>
       </header>
-      <section className="mx-4 mt-8 lg:flex lg:justify-center lg:mx-0">
+      <section className="mx-4 mt-8 lg:flex lg:mx-0">
         <p className="text-base lg:flex lg:ml-0 text-slate-300 lg:mt-10">
           {project.description}
         </p>
