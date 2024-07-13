@@ -19,5 +19,5 @@ export const NAV_LINKS = [
 
 export const RESUME = {
   name: "Resume",
-  link: "../../src/assets/laura-alabau.pdf",
+  link: "../../public/files/laura-alabau.pdf",
 };
