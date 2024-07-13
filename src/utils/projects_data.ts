@@ -22,14 +22,14 @@ export const PROJECTS_DATA: ProjectCard[] = [
     skills: ["Html", "Tailwind", "Typescript", "React", "Vercel"],
     thumbnailSrc:
       "https://utfs.io/f/fd6f9e1b-29b6-443c-a19d-63934961b92a-1e3q3f.webp",
-    githubLinkFront: "https://github.com/lauraAlabau/portfolio-react",
+    githubLinkFront: "https://github.com/lauraAlabau/portfolio-2024",
     githubLinkBack: "",
     previewLink: "https://laura-alabau.vercel.app/",
   },
   {
-    slug: "finance-tracker",
+    slug: "budget-buddy",
     header: "Personal Project - 2024",
-    title: "Finance Tracker",
+    title: "Budget Buddy",
     description:
       "Fullstack project to task th incomes and expenses each month and have an overview of the previous and current month and also the total of all times. This project use Clerk as third party api to authenticate and manage the users.",
     skills: [
@@ -43,7 +43,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
       "Vercel",
     ],
     thumbnailSrc:
-      "https://utfs.io/f/48d58539-3d74-41d0-9cf8-88f9182a63c3-9i3xtq.webp",
+      "https://utfs.io/f/440d9b1a-8fe6-4843-b4e7-f28183336897-1m8ujl.webp",
     githubLinkFront: "https://github.com/lauraAlabau/finance-tracker-client",
     previewLink: "https://finance-tracker-cli.vercel.app/",
     githubLinkBack: "https://github.com/lauraAlabau/finance-tracker-server",
