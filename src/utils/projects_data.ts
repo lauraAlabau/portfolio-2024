@@ -22,7 +22,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     skills: ["Html", "Tailwind", "Typescript", "React", "Vercel"],
     thumbnailSrc:
       "https://utfs.io/f/fd6f9e1b-29b6-443c-a19d-63934961b92a-1e3q3f.webp",
-    githubLinkFront: "https://github.com/lauraAlabau/portfolio-react-2024",
+    githubLinkFront: "https://github.com/lauraAlabau/portfolio-2024",
     githubLinkBack: "",
     previewLink: "https://laura-alabau.vercel.app/",
   },
