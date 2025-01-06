@@ -2,6 +2,33 @@ import { ExperienceListProps } from "../components/experience/ExperienceList";
 
 export const EXPERIENCE_DATA: ExperienceListProps[] = [
   {
+    company: "Prima",
+    rol: "Software Engineer",
+    period: "Sep. 2024 - current",
+    location: "Remote",
+    description: [
+      "Development and maintenance of frontend projects using React, TypeScript, and Elm.",
+      "Occasional backend development using Elixir and GraphQL.",
+      "Styling using SCSS and a company-wide design system.",
+      "Development of microfrontends using Module Federation.",
+      "Ensuring 100% test coverage with Vitest.",
+      "Version control using Git and Github.",
+    ],
+    skills: [
+      "TypeScript",
+      "React",
+      "Elm",
+      "SCSS",
+      "GraphQL",
+      "Elixir",
+      "Microfrontend",
+      "Vitest",
+      "Git",
+      "Github",
+    ],
+    projects: [],
+  },
+  {
     company: "Jobandtalent",
     rol: "Frontend Developer",
     period: "Dec. 2021 - May. 2024",
