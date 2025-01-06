@@ -122,8 +122,8 @@ export const PROJECTS_DATA: ProjectCard[] = [
     header: "Ironhack - 2021",
     title: "Hungry Cats",
     description:
-      "First project developed during the fullstack bootcamp in Ironhack. The objective was to create a game with javescript and canva.",
-    skills: ["Html", "Css", "Javascript", "Canva"],
+      "First project developed during the fullstack bootcamp in Ironhack. The objective was to create a game with javescript and canvas.",
+    skills: ["Html", "Css", "Javascript", "Canvas"],
     thumbnailSrc:
       "https://utfs.io/f/28715dd5-dec5-448d-9c45-4d05dfc5314d-1muarz.jpg",
     githubLinkFront: "https://github.com/lauraAlabau/proyect-1_the-game",
