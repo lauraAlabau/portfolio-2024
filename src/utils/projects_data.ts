@@ -20,8 +20,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "New portfolio web where you can find some information about me, my technical skills and work done. This project it's done with some of the technologies I usually work with. This project is still in progress.",
     skills: ["Html", "Tailwind", "Typescript", "React", "Vercel"],
-    thumbnailSrc:
-      "https://utfs.io/f/fd6f9e1b-29b6-443c-a19d-63934961b92a-1e3q3f.webp",
+    thumbnailSrc: "https://utfs.io/f/fd6f9e1b-29b6-443c-a19d-63934961b92a-1e3q3f.webp",
     githubLinkFront: "https://github.com/lauraAlabau/portfolio-2024",
     githubLinkBack: "",
     previewLink: "https://laura-alabau.vercel.app/",
@@ -32,18 +31,8 @@ export const PROJECTS_DATA: ProjectCard[] = [
     title: "Budget Buddy",
     description:
       "Fullstack project to task th incomes and expenses each month and have an overview of the previous and current month and also the total of all times. This project use Clerk as third party api to authenticate and manage the users.",
-    skills: [
-      "Html",
-      "Tailwind",
-      "Typescript",
-      "React",
-      "Node.js",
-      "Express",
-      "Clerk",
-      "Vercel",
-    ],
-    thumbnailSrc:
-      "https://utfs.io/f/440d9b1a-8fe6-4843-b4e7-f28183336897-1m8ujl.webp",
+    skills: ["Html", "Tailwind", "Typescript", "React", "Node.js", "Express", "Clerk", "Vercel"],
+    thumbnailSrc: "https://utfs.io/f/440d9b1a-8fe6-4843-b4e7-f28183336897-1m8ujl.webp",
     githubLinkFront: "https://github.com/lauraAlabau/finance-tracker-client",
     previewLink: "https://finance-tracker-cli.vercel.app/",
     githubLinkBack: "https://github.com/lauraAlabau/finance-tracker-server",
@@ -54,17 +43,8 @@ export const PROJECTS_DATA: ProjectCard[] = [
     title: "MTG Deck Creator - V2",
     description:
       "This is a new version of a project developed during my bootcamp in 2021. I wanted to improve the functionality, the UI and also the complexity creating both backend and frontend as different and independant repositories. This project is still in progress.",
-    skills: [
-      "Html",
-      "Css",
-      "Javascript",
-      "React",
-      "Node.js",
-      "Express",
-      "Vercel",
-    ],
-    thumbnailSrc:
-      "https://utfs.io/f/08505edd-d5f2-437a-982d-a06fe190d8a3-hudq8l.webp",
+    skills: ["Html", "Css", "Javascript", "React", "Node.js", "Express", "Vercel"],
+    thumbnailSrc: "https://utfs.io/f/08505edd-d5f2-437a-982d-a06fe190d8a3-hudq8l.webp",
     githubLinkFront: "https://github.com/lauraAlabau/mtg-deck-creator-client",
     previewLink: "https://mtg-deck-creator-client.vercel.app/",
     githubLinkBack: "https://github.com/lauraAlabau/mtg-deck-creator-server",
@@ -99,14 +79,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     title: "MTG Creator Deck",
     description:
       "Second project developed during the fullstack bootcamp in Ironhack. The objective of the project was to create a Backend project with a external api and also its own database where being able to manage users and it's data",
-    skills: [
-      "Handelbars",
-      "Css",
-      "Javascript",
-      "Node.js",
-      "Express",
-      "Mongo db",
-    ],
+    skills: ["Handelbars", "Css", "Javascript", "Node.js", "Express", "Mongo db"],
     thumbnailSrc: "",
     githubLinkFront: "https://github.com/lauraAlabau/project-2_API",
     previewLink: "",
@@ -124,8 +97,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "First project developed during the fullstack bootcamp in Ironhack. The objective was to create a game with javescript and canvas.",
     skills: ["Html", "Css", "Javascript", "Canvas"],
-    thumbnailSrc:
-      "https://utfs.io/f/28715dd5-dec5-448d-9c45-4d05dfc5314d-1muarz.jpg",
+    thumbnailSrc: "https://utfs.io/f/28715dd5-dec5-448d-9c45-4d05dfc5314d-1muarz.jpg",
     githubLinkFront: "https://github.com/lauraAlabau/proyect-1_the-game",
     previewLink: "https://lauraalabau.github.io/proyect-1_the-game/index.html",
     githubLinkBack: "",
@@ -138,8 +110,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "Design of promotional banners for Bwin Sports and Bwin online casino, Betboo sports and casino and Sportingbet e-sports and casino. Adaptation for different countries, Spain, Brazil, Mexico and Colombia, and to different platforms and social networks.",
     skills: ["Ps", "Ai"],
-    thumbnailSrc:
-      "https://utfs.io/f/eebcf297-3041-4773-97fa-cada1c1eb45e-mrc8f6.jpg",
+    thumbnailSrc: "https://utfs.io/f/eebcf297-3041-4773-97fa-cada1c1eb45e-mrc8f6.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
@@ -161,8 +132,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     title: "GOD MTG",
     description: "",
     skills: ["Ps", "Ai"],
-    thumbnailSrc:
-      "https://utfs.io/f/f10afdfe-e4f1-41dd-9900-8f2652122b98-2qqf4y.jpg",
+    thumbnailSrc: "https://utfs.io/f/f10afdfe-e4f1-41dd-9900-8f2652122b98-2qqf4y.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
@@ -180,11 +150,9 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "Web built with Joomla and personalised with CSS to make it responsive and to meet client needs. Design of graphic elements for the web.",
     skills: ["Ps", "Ai", "Html", "Css", "Joomla"],
-    thumbnailSrc:
-      "https://utfs.io/f/b5152377-69ea-41aa-825b-6c5e4137a35a-3bpaqc.jpg",
+    thumbnailSrc: "https://utfs.io/f/b5152377-69ea-41aa-825b-6c5e4137a35a-3bpaqc.jpg",
     githubLinkFront: "",
-    previewLink:
-      "https://dinamiccomunicacio.com/celebrem-amb-uquifa-seu-80-aniversari-creant-nova-web/",
+    previewLink: "https://dinamiccomunicacio.com/celebrem-amb-uquifa-seu-80-aniversari-creant-nova-web/",
     githubLinkBack: "",
     isBlog: true,
     blogImgs: [
@@ -201,8 +169,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "Vecesam is a company that manufactures PVC windows and doors. Website built with Joomla and customised with CSS and HTML to fit the devices and client's requirements. Graphics elements design for the web.",
     skills: ["Ps", "Ai", "Html", "Css", "Joomla"],
-    thumbnailSrc:
-      "https://utfs.io/f/df8a47da-0d62-4cba-b28a-0314c67d0eb6-y7d442.jpg",
+    thumbnailSrc: "https://utfs.io/f/df8a47da-0d62-4cba-b28a-0314c67d0eb6-y7d442.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
@@ -221,8 +188,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "Website built with Joomla and customised with CSS and HTML to fit the devices and client's requirements.",
     skills: ["Ai", "Html", "Css", "Joomla"],
-    thumbnailSrc:
-      "https://utfs.io/f/421a3fa9-7eaa-4bd8-ab3c-652ac675f041-m2oxg0.jpg",
+    thumbnailSrc: "https://utfs.io/f/421a3fa9-7eaa-4bd8-ab3c-652ac675f041-m2oxg0.jpg",
     githubLinkFront: "",
     previewLink:
       "https://dinamiccomunicacio.com/dinamic-posa-la-seva-experiencia-al-servei-d-un-crowdfunding-solidari-de-la-ue-santboiana/",
@@ -240,11 +206,9 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "Website built with Joomla and customised with CSS and HTML to fit the devices and client's requirements. This is a premium customisation company for mobile and laptop devices. Design of graphic elements for the web and also create some custom designs for devices.",
     skills: ["Ps", "Ai", "Ae", "Html", "Css", "Joombla"],
-    thumbnailSrc:
-      "https://utfs.io/f/776a9208-f2e6-4e0e-9608-0755dc995e32-glt6x4.jpg",
+    thumbnailSrc: "https://utfs.io/f/776a9208-f2e6-4e0e-9608-0755dc995e32-glt6x4.jpg",
     githubLinkFront: "",
-    previewLink:
-      "https://dinamiccomunicacio.com/myideal-it-dispositius-amb-un-300-mes-de-prestacions/",
+    previewLink: "https://dinamiccomunicacio.com/myideal-it-dispositius-amb-un-300-mes-de-prestacions/",
     githubLinkBack: "",
     isBlog: true,
     blogImgs: [
@@ -259,15 +223,12 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "Catchapp is an application where users can buy and share events with their friends and even resell tickets. Re-design of menu for the mobile version.",
     skills: ["Ps", "Ai"],
-    thumbnailSrc:
-      "https://utfs.io/f/0c87139d-aece-4964-99a8-819094026e19-szdza.jpg",
+    thumbnailSrc: "https://utfs.io/f/0c87139d-aece-4964-99a8-819094026e19-szdza.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
     isBlog: true,
-    blogImgs: [
-      "https://utfs.io/f/0c87139d-aece-4964-99a8-819094026e19-szdza.jpg",
-    ],
+    blogImgs: ["https://utfs.io/f/0c87139d-aece-4964-99a8-819094026e19-szdza.jpg"],
   },
   {
     slug: "apiject",
@@ -276,11 +237,9 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "Website built with Joomla and customised using CSS and HTML to adjust it to the different devices and client's requirements. Graphics design elements created specific to the website and customised to the look and feel of the brand.",
     skills: ["Ps", "Ai", "Html", "Css", "Joomla"],
-    thumbnailSrc:
-      "https://utfs.io/f/9a24661b-4060-42e2-ac47-1c7ad320332f-3qu2wa.jpg",
+    thumbnailSrc: "https://utfs.io/f/9a24661b-4060-42e2-ac47-1c7ad320332f-3qu2wa.jpg",
     githubLinkFront: "",
-    previewLink:
-      "https://dinamiccomunicacio.com/apiject-confia-en-dinamic-per-crear-la-landing-del-seu-nou-productec/",
+    previewLink: "https://dinamiccomunicacio.com/apiject-confia-en-dinamic-per-crear-la-landing-del-seu-nou-productec/",
     githubLinkBack: "",
     isBlog: true,
     blogImgs: [
@@ -295,11 +254,9 @@ export const PROJECTS_DATA: ProjectCard[] = [
     title: "FantosFreak",
     description: "Design and layout of media dossiers.",
     skills: ["Ps", "Ai", "In"],
-    thumbnailSrc:
-      "https://utfs.io/f/69c98568-b59f-4e7f-bb07-038a30c4f5b0-f7wqdd.jpg",
+    thumbnailSrc: "https://utfs.io/f/69c98568-b59f-4e7f-bb07-038a30c4f5b0-f7wqdd.jpg",
     githubLinkFront: "",
-    previewLink:
-      "https://dinamiccomunicacio.com/myideal-it-dispositius-amb-un-300-mes-de-prestacions/",
+    previewLink: "https://dinamiccomunicacio.com/myideal-it-dispositius-amb-un-300-mes-de-prestacions/",
     githubLinkBack: "",
     isBlog: true,
     blogImgs: [
@@ -313,8 +270,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     title: "Trip Troop",
     description: "Design and final artwork for printing.",
     skills: ["Ps", "Ai"],
-    thumbnailSrc:
-      "https://utfs.io/f/6f81e273-e3b5-49e7-b9fc-f6b2300cfa18-9e3eb5.jpg",
+    thumbnailSrc: "https://utfs.io/f/6f81e273-e3b5-49e7-b9fc-f6b2300cfa18-9e3eb5.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
@@ -328,11 +284,9 @@ export const PROJECTS_DATA: ProjectCard[] = [
     slug: "cines-full",
     header: "Dinàmic Comunicació - 2016",
     title: "Cines Full",
-    description:
-      "Design of banners for web, email and social networks for the client Full cinemas.",
+    description: "Design of banners for web, email and social networks for the client Full cinemas.",
     skills: ["Ps", "Ai", "Html", "Css"],
-    thumbnailSrc:
-      "https://utfs.io/f/c4693770-ec37-4489-b75b-d1c46e95fc37-cl8kh6.jpg",
+    thumbnailSrc: "https://utfs.io/f/c4693770-ec37-4489-b75b-d1c46e95fc37-cl8kh6.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
@@ -353,11 +307,9 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "Web made with Joomla, customisation based on the client's needs and custom responsive made with CSS and HTML.",
     skills: ["Ps", "Ai", "Html", "Css", "Joomla"],
-    thumbnailSrc:
-      "https://utfs.io/f/bb60bbc2-4b75-4abb-ab3b-716e38fcede4-nj9eyr.jpg",
+    thumbnailSrc: "https://utfs.io/f/bb60bbc2-4b75-4abb-ab3b-716e38fcede4-nj9eyr.jpg",
     githubLinkFront: "",
-    previewLink:
-      "https://dinamiccomunicacio.com/portal-associacio-professionals-gastonomia/",
+    previewLink: "https://dinamiccomunicacio.com/portal-associacio-professionals-gastonomia/",
     githubLinkBack: "",
     isBlog: true,
     blogImgs: [
@@ -374,8 +326,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "Redesign with a simple structure that provides agile navigation, faster and quicker access to content and has been specially designed to adjust to different mobile devices: laptops, tablets and mobiles.",
     skills: ["Ps", "Ai", "Html", "Css", "Joomla"],
-    thumbnailSrc:
-      "https://utfs.io/f/91d31686-4d03-40ae-b549-8394dad7ff29-4n0ilk.jpg",
+    thumbnailSrc: "https://utfs.io/f/91d31686-4d03-40ae-b549-8394dad7ff29-4n0ilk.jpg",
     githubLinkFront: "",
     previewLink:
       "https://dinamiccomunicacio.com/treballem-amb-el-departament-de-cellers-avgvstvs-forvm-per-crear-la-nova-web/",
@@ -395,8 +346,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     title: "Ananos",
     description: "Logo and advertising design for a jam brand.",
     skills: ["Ps", "Ai"],
-    thumbnailSrc:
-      "https://utfs.io/f/ebdc27ac-a46e-42b0-8613-a028f92815ec-gx09jy.jpg",
+    thumbnailSrc: "https://utfs.io/f/ebdc27ac-a46e-42b0-8613-a028f92815ec-gx09jy.jpg",
     githubLinkFront: "",
     previewLink: "https://ananosberries.com/",
     githubLinkBack: "",
@@ -415,8 +365,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     description:
       "Redesign of the website and landing page was carried out to improve Birrabox's online presence. Also creation of advertising banners specifically adapted to web and social media to help boost the brand's presence.",
     skills: ["Ps", "Ai"],
-    thumbnailSrc:
-      "https://utfs.io/f/93a65d4d-425c-4f93-a458-dca37db091b5-daf9fv.jpg",
+    thumbnailSrc: "https://utfs.io/f/93a65d4d-425c-4f93-a458-dca37db091b5-daf9fv.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
@@ -434,8 +383,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     title: "Groupalia E-commerce",
     description: "Web banner creation and design for ecommerce company.",
     skills: ["Ps", "Ai"],
-    thumbnailSrc:
-      "https://utfs.io/f/12364f5a-4140-415b-9e56-987a89b77697-j251uu.jpg",
+    thumbnailSrc: "https://utfs.io/f/12364f5a-4140-415b-9e56-987a89b77697-j251uu.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
@@ -453,8 +401,7 @@ export const PROJECTS_DATA: ProjectCard[] = [
     title: "SPOTS",
     description: "Logo and icon design for a game in the App store",
     skills: ["Ps", "Ai"],
-    thumbnailSrc:
-      "https://utfs.io/f/ffd4cd65-d0c0-4a15-9409-88fdb4dbb275-x1zeuj.jpg",
+    thumbnailSrc: "https://utfs.io/f/ffd4cd65-d0c0-4a15-9409-88fdb4dbb275-x1zeuj.jpg",
     githubLinkFront: "",
     previewLink: "",
     githubLinkBack: "",
@@ -482,6 +429,5 @@ export const PROJECTS_DATA: ProjectCard[] = [
 
 export const getProject = async (slug: string) => {
   const project = PROJECTS_DATA.find((project) => project.slug.includes(slug));
-  console.log({ project });
   return project ?? null;
 };

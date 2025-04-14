@@ -1,4 +1,4 @@
-import { ExperienceListProps } from "../components/experience/ExperienceList";
+import type { ExperienceListProps } from "../components/experience/ExperienceList";
 
 export const EXPERIENCE_DATA: ExperienceListProps[] = [
   {
@@ -14,18 +14,7 @@ export const EXPERIENCE_DATA: ExperienceListProps[] = [
       "Ensuring 100% test coverage with Vitest.",
       "Version control using Git and Github.",
     ],
-    skills: [
-      "TypeScript",
-      "React",
-      "Elm",
-      "SCSS",
-      "GraphQL",
-      "Elixir",
-      "Microfrontend",
-      "Vitest",
-      "Git",
-      "Github",
-    ],
+    skills: ["TypeScript", "React", "Elm", "SCSS", "GraphQL", "Elixir", "Microfrontend", "Vitest", "Git", "Github"],
     projects: [],
   },
   {
@@ -94,16 +83,7 @@ export const EXPERIENCE_DATA: ExperienceListProps[] = [
       "Design, layout and personalisation of landing pages, email campains, websites and apps.",
       "Multiclient project management.",
     ],
-    skills: [
-      "Photoshop",
-      "Illustrator",
-      "Indesign",
-      "AfeterEfects",
-      "Joombla",
-      "Wordpress",
-      "Html",
-      "Css",
-    ],
+    skills: ["Photoshop", "Illustrator", "Indesign", "AfeterEfects", "Joombla", "Wordpress", "Html", "Css"],
     projects: [],
   },
   {
@@ -125,10 +105,7 @@ export const EXPERIENCE_DATA: ExperienceListProps[] = [
     rol: "Graphic designer",
     period: "jul. 2015 - dic. 2015",
     location: "Barcelona, Catalonia, Spain",
-    description: [
-      "Photographic selection and retouching.",
-      "Banner web design.",
-    ],
+    description: ["Photographic selection and retouching.", "Banner web design."],
     skills: ["Photoshop", "Illustrator"],
     projects: [],
   },

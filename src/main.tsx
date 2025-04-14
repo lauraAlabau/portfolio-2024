@@ -6,18 +6,13 @@ import { NavbarProvider } from "./context/NavbarContext.tsx";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-import { Root } from "./routes/root.tsx";
+import { AllExperience } from "./routes/all-experience.tsx";
+import { AllProjects } from "./routes/all-projects.tsx";
 import { ErrorPage } from "./routes/error-page.tsx";
 import { Index } from "./routes/index.tsx";
-import { AllProjects } from "./routes/all-projects.tsx";
-import { AllExperience } from "./routes/all-experience.tsx";
 import { Project, loader as projectLoader } from "./routes/project.tsx";
-import {
-  ALL_EXPERIENCE,
-  ALL_PROJECTS,
-  BASE_URL,
-  SLUG_PROJECT,
-} from "./utils/routes_index.ts";
+import { Root } from "./routes/root.tsx";
+import { ALL_EXPERIENCE, ALL_PROJECTS, BASE_URL, SLUG_PROJECT } from "./utils/routes_index.ts";
 
 const router = createBrowserRouter([
   {
@@ -48,5 +43,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <NavbarProvider>
       <RouterProvider router={router} />
     </NavbarProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

@@ -12,7 +12,7 @@ export const Experience = () => {
       </h2>
       <ul className="relative flex flex-col gap-1 p-0 m-0 list-none lg:gap-4 border-s border-slate-700">
         {EXPERIENCE_DATA.slice(0, 3).map((job) => (
-          <ExperienceList {...job} />
+          <ExperienceList {...job} key={job.company} />
         ))}
       </ul>
       <div className="mt-20  border border-red-400 rounded-md px-6 py-4 text-red-400 font-semibold  transition-all duration-250 hover:shadow-[3px_3px_0_0_#ef4444] hover:-translate-x-2 hover:-translate-y-2">

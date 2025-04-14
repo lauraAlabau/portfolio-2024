@@ -55,6 +55,7 @@ export const ProjectList = ({
                 aria-label="GitHub Link"
                 className="relative flex items-center justify-center p-2 lg:p-4 hover:text-red-400 group"
                 target="_blank"
+                rel="noreferrer"
               >
                 <TbBrandGithub className="w-5 h-5" />
                 <span className="absolute px-2 py-1 mx-auto text-xs transition-opacity -translate-x-1/2 -translate-y-full rounded-md opacity-0 text-slate-100 bg-slate-800 group-hover:opacity-100 left-1/2 whitespace-nowrap">
