@@ -19,6 +19,5 @@ export const NAV_LINKS = [
 
 export const RESUME = {
   name: "Resume",
-  // link: "../../public/files/laura-alabau.pdf",
-  link: "https://utfs.io/f/7757075c-405f-4aab-823b-c5a25ffdd91b-cffjsp.pdf",
+  link: "/files/Laura_Alabau_CV_Web.pdf",
 };
