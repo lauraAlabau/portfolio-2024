@@ -27,12 +27,8 @@ export const ExperienceList = ({
         </span>
         <p className="text-sm text-red-400 mt-1.5 mb-2.5">{company}</p>
         <h3 className="mb-2.5 text-xl font-semibold text-slate-100 ">{rol}</h3>
-        <time className="block mb-1 text-sm font-normal leading-none text-slate-400 ">
-          {period}
-        </time>
-        <p className="hidden mb-5 text-sm font-normal leading-none text-slate-400 ">
-          {location}
-        </p>
+        <time className="block mb-1 text-sm font-normal leading-none text-slate-400 ">{period}</time>
+        <p className="hidden mb-5 text-sm font-normal leading-none text-slate-400 ">{location}</p>
         <div className="mb-2.5 lg:mb-5 ">
           {description.map((task) => (
             <p key={task}>{task}</p>

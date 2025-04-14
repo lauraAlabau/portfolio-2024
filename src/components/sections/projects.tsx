@@ -12,7 +12,7 @@ export const Projects = () => {
       </h2>
       <ul className="relative flex flex-col gap-8 p-0 m-0 list-none lg:gap-24">
         {PROJECTS_DATA.slice(0, 3).map((project) => (
-          <ProjectCard {...project} />
+          <ProjectCard {...project} key={project.slug} />
         ))}
       </ul>
 

@@ -1,4 +1,4 @@
-import { Contact, SocialMedia, Navbar } from "..";
+import { Contact, Navbar, SocialMedia } from "..";
 
 export const LayoutPg = () => {
   return (

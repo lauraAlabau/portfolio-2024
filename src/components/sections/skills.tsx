@@ -11,14 +11,11 @@ export const Skills = () => {
       </h2>
       <div className="flex flex-col w-full gap-6 lg:gap-16">
         {SKILL_TECH_DATA.map((skill) => (
-          <div className="flex flex-col gap-4 lg:gap-10">
+          <div className="flex flex-col gap-4 lg:gap-10" key={skill.type}>
             <h3 className="text-sm text-red-400">{skill.type}</h3>
             <ul className="flex flex-wrap items-center justify-between gap-4">
               {skill.technologies.map((tech) => (
-                <li
-                  key={tech.name}
-                  className="flex items-center gap-4 px-2 py-2 lg:px-6 text-slate-400"
-                >
+                <li key={tech.name} className="flex items-center gap-4 px-2 py-2 lg:px-6 text-slate-400">
                   <div>{tech.icon}</div>
                   <div>
                     <h4 className="text-slate-100">{tech.name}</h4>

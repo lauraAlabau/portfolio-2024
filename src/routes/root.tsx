@@ -1,6 +1,6 @@
+import { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import { LayoutPg } from "../components";
-import { useEffect } from "react";
 
 export const Root = () => {
   const location = useLocation();
@@ -15,7 +15,7 @@ export const Root = () => {
         }
       }, 10);
     }
-  }, []);
+  }, [location.hash]);
 
   return (
     <>

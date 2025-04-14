@@ -1,4 +1,5 @@
-import React, { createContext, useState, useContext, ReactNode } from "react";
+import type React from "react";
+import { type ReactNode, createContext, useContext, useState } from "react";
 
 interface NavbarContextProps {
   isOpen: boolean;
@@ -14,11 +15,7 @@ interface NavbarProviderProps {
 export const NavbarProvider: React.FC<NavbarProviderProps> = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  return (
-    <NavbarContext.Provider value={{ isOpen, setIsOpen }}>
-      {children}
-    </NavbarContext.Provider>
-  );
+  return <NavbarContext.Provider value={{ isOpen, setIsOpen }}>{children}</NavbarContext.Provider>;
 };
 
 export const useNavbar = (): NavbarContextProps => {

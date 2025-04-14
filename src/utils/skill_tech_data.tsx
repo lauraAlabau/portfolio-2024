@@ -41,21 +41,13 @@ export const SKILL_TECH_DATA = [
       },
       {
         icon: (
-          <SiElm
-            className="stroke-[1.1px] border-[1.1px] border-slate-400 size-8 stroke-slate-400"
-            color="#030819"
-          />
+          <SiElm className="stroke-[1.1px] border-[1.1px] border-slate-400 size-8 stroke-slate-400" color="#030819" />
         ),
         name: "Elm",
         subtitle: "Frontend Development",
       },
       {
-        icon: (
-          <SiElixir
-            className="h-10 stroke-1 w-9 stroke-slate-400"
-            color="#030819"
-          />
-        ),
+        icon: <SiElixir className="h-10 stroke-1 w-9 stroke-slate-400" color="#030819" />,
         name: "Elixir",
         subtitle: "Backend Development",
       },
