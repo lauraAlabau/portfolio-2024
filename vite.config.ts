@@ -10,7 +10,6 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: ["./setupTests.ts"],
     coverage: {
-      all: false,
       provider: "istanbul",
       include: ["src"],
       exclude: [
