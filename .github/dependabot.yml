@@ -12,9 +12,19 @@ updates:
     cooldown:
       default-days: 7
     groups:
-      vitest:
+      react-ecosystem:
         patterns:
-          - "*vitest*"
+          - "react*"
+          - "@types/react*"
+      testing-ecosystem:
+        patterns:
+          - "vitest*"
+          - "@testing-library/*"
+          - "@vitest/*"
+      build-tools:
+        patterns:
+          - "vite*"
+          - "typescript"
       patches:
         applies-to: version-updates
         patterns:
