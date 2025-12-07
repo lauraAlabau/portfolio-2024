@@ -1,15 +1,24 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.3.8/schema.json",
   "vcs": {
     "enabled": false,
     "clientKind": "git",
     "useIgnoreFile": false
   },
   "files": {
-    "ignoreUnknown": false,
-    "include": ["src/**/*.ts", "*.ts", "*.tsx"],
-    "ignore": ["dist", "vitest.config.ts"]
+    "includes": [
+      "**/src/**/*.ts",
+      "**/*.ts",
+      "**/*.tsx",
+      "!!**/dist",
+      "!!**/node_modules",
+      "!!**/vitest.config.ts",
+      "!!**/*.json",
+      "!!**/*.js",
+      "!!**/*.css"
+    ]
   },
+
   "javascript": {
     "formatter": {
       "indentStyle": "space",
@@ -26,7 +35,8 @@
     "enabled": true,
     "rules": {
       "a11y": {
-        "useKeyWithClickEvents": "off"
+        "useKeyWithClickEvents": "off",
+        "noStaticElementInteractions": "off"
       },
       "recommended": true,
       "style": {

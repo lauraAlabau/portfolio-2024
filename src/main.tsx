@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import "./index.css";
-import { NavbarProvider } from "./context/NavbarContext.tsx";
 
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { NavbarProvider } from "./context/NavbarContext.tsx";
 
 import { AllExperience } from "./routes/all-experience.tsx";
 import { AllProjects } from "./routes/all-projects.tsx";

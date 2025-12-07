@@ -1,6 +1,6 @@
 import { type LoaderFunctionArgs, type ParamParseKey, useLoaderData } from "react-router-dom";
 import { Gallery } from "../components";
-import { type ProjectCard, getProject } from "../utils/projects_data";
+import { getProject, type ProjectCard } from "../utils/projects_data";
 import type { SLUG_PROJECT } from "../utils/routes_index";
 
 export async function loader({ params }: LoaderFunctionArgs) {
