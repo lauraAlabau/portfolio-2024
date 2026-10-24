@@ -20,10 +20,13 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install --ignore-scripts
+        run: npm ci --ignore-scripts
+
+      - name: Audit dependencies
+        run: npm audit
 
       - name: Format check (Biome)
-        run: npm run format
+        run: npm run format:check
 
       - name: Type check
         run: npm run ts:check

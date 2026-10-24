@@ -21,7 +21,7 @@
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^7.11.0",
+    "react-router-dom": "^7.18.4",
     "tailwindcss": "^4.1.3"
   },
   "devDependencies": {
@@ -36,7 +36,7 @@
     "husky": "^9.1.7",
     "jsdom": "^27.4.0",
     "typescript": "~5.9.3",
-    "vite": "^7.3.0",
+    "vite": "^7.3.7",
     "vite-tsconfig-paths": "^6.0.3",
     "vitest": "^4.1.12"
   }
